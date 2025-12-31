@@ -18,13 +18,16 @@ The primary objective was to prioritize architectural understanding and design i
 
 ![full schematic sample and hold](https://github.com/user-attachments/assets/0b83f229-6bae-4d7f-a810-20a1264346b3)
 
+<img width="940" height="816" alt="image" src="https://github.com/user-attachments/assets/6cbdb68e-b8fd-45d5-a4d3-a33bdaa4a509" />
+
+
 
 ### b. Brief overview of the performance of the circuit:
 
 #### i. DC operating points:
 * **VDD** = 1.2V
 * **VCC** = 0.9V
-* **Total DC current consumption** = 84.32uA + 55.63uA = 139.95uA
+* **Total DC current consumption** = 139.95uA
 
 #### ii. Accuracy
 The transient simulation is carried out when the input signal is fed into the input capacitor and thus the inverting terminal of the op amp.
