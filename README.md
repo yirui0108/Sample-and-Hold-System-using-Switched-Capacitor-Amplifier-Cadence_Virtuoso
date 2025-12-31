@@ -38,7 +38,8 @@ The transient simulation is carried out when the input signal is fed into the in
 * Frequency = 5kHz
 
 **Formula:**
-$$Accuracy = \frac{\text{actual amplitude}}{\text{ideal amplitude}} \times 100\%$$
+
+$$Accuracy = \frac{\text{actual amplitude}}{\text{ideal amplitude}} \times 100\%\$$
 
 **i) At peak point:**
 * Ideal amplitude: +100mV
