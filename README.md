@@ -108,7 +108,8 @@ $$TC = \frac{539.5411mV - 498.9678mV}{0.5V} \times \frac{10^6}{110 - (-10)} = 67
 * The start-up transistor M4 did not turn off during normal operation as intended, as it was a trade-off made to prevent oscillations in the output reference voltage during startup, since the circuit had trouble in starting up entirely when M4 is switched off briefly after startup. This will affect the normal operation of the op amp.
 * Further refinements can be done by adjusting the values of the resistor using the below equation highlighted in the article, to improve the temperature coefficient performance.
 
-![Equation for resistor adjustment](path/to/resistor_equation.png)
+<img width="617" height="194" alt="image" src="https://github.com/user-attachments/assets/ccc34ea1-1ac3-49a6-a31a-088537c695a4" />
+
 
 * Curvature compensation method can be implemented in the bandgap architecture as highlighted in the article.
 * The unity gain buffer can be optimized to achieve a high open-loop gain (increase length of the cascode transistors), a good enough unity-gain bandwidth value (increase width of the input pair), as well as a low current consumption (reduce the current source bias current).
@@ -126,9 +127,13 @@ To provide the necessary biasing voltages to the main amplifier and the unity ga
 * Vcn = 568.88mV
 * Vbn = 452.56mV
 
-![Biasing Circuit Schematic](path/to/biasing_circuit_schematic_1.png)
-![Biasing Circuit Design Variables](path/to/biasing_circuit_variables.png)
-![Biasing Circuit Transistors](path/to/biasing_circuit_schematic_2.png)
+<img width="606" height="381" alt="image" src="https://github.com/user-attachments/assets/03b0c171-d7f0-4ecf-95e4-5f52a9ee0dfd" />
+
+<img width="297" height="377" alt="image" src="https://github.com/user-attachments/assets/8296f390-b26f-4f36-90cb-8bcbfa390f2c" />
+
+
+<img width="940" height="548" alt="image" src="https://github.com/user-attachments/assets/0c3004f9-7991-4cbf-bf5d-84fef32c1ca7" />
+
 
 #### c. Biasing circuitry brief explanations:
 * A biasing resistor $R_3$ is added to provide the constant-gm property.
@@ -137,7 +142,8 @@ To provide the necessary biasing voltages to the main amplifier and the unity ga
 #### d. Start-up behavior
 The circuit can be self-started, the diagram below shows the voltage changes during circuit start-up.
 
-![Biasing Circuit Start-up Transient](path/to/biasing_startup_graph.png)
+<img width="940" height="443" alt="image" src="https://github.com/user-attachments/assets/98d12a9b-16c8-40ec-a5c6-548ea2cdc4b3" />
+
 
 #### e. Future works:
 * Further tuning of the biasing voltages can be controlled with appropriate sizing of transistors, and resistor value, to improve the performance of the OTA.
