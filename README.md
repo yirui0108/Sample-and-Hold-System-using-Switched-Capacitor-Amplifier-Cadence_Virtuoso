@@ -14,7 +14,7 @@ The primary objective was to prioritize architectural understanding and design i
 
 ### a. Purpose:
 * The circuit aims to increase the stability of signals by sampling and holding the signals and prevents from any changes at this time.
-* This helps in conversion of simple signals into advance signals using this circuit in analog to digital converters (ADCs).
+* This helps in conversion of simple signals into advance signals (with less noise) in analog to digital converters (ADCs).
 
 ![full schematic sample and hold](https://github.com/user-attachments/assets/0b83f229-6bae-4d7f-a810-20a1264346b3)
 
