@@ -122,7 +122,23 @@ $$TC = \frac{539.5411mV - 498.9678mV}{0.5V} \times \frac{10^6}{110 - (-10)} = 67
 #### a. Purpose:
 To provide the necessary biasing voltages to the main amplifier and the unity gain buffer.
 
-#### b. Biasing voltages:
+#### b. Brief explanation:
+
+<img width="522" height="661" alt="image" src="https://github.com/user-attachments/assets/3be9ca53-4a33-4561-9dc1-de8bae622c3b" />
+
+For the circuit above, it can be proven that:
+
+<img width="522" height="661" alt="image" src="https://github.com/user-attachments/assets/c8b162e0-a2e4-4159-bcd6-bb6bf8b4bebf" />
+
+and by drain current definition:
+
+<img width="507" height="102" alt="image" src="https://github.com/user-attachments/assets/183bfce4-bc17-4e81-aa98-35ad0092bfee" />
+
+Thus by assuming perfect current mirror working condition, every branch will get the same ID, thus the different biasing voltage can be obtained via adjustments of W/L of different transistors.
+
+
+
+#### c. Biasing voltages:
 * Vbp = 697.34mV
 * Vcp = 525.47mV
 * Vcn = 568.88mV
@@ -139,17 +155,17 @@ The schematic of the Wide Swing Constant-Transconductance Biasing Circuit is sho
 <img width="940" height="548" alt="image" src="https://github.com/user-attachments/assets/0c3004f9-7991-4cbf-bf5d-84fef32c1ca7" />
 
 
-#### c. Biasing circuitry brief explanations:
+#### d. Biasing circuitry brief explanations:
 * A biasing resistor $R_0$ is added to provide the constant-gm property.
 * The length of the cascode transistors are usually made larger than that of current-mirror transistor to ensure that the operation region of cascode transistors do not fall into triode region.
 
-#### d. Start-up behavior
+#### e. Start-up behavior
 The circuit can be self-started, the diagram below shows the voltage changes during circuit start-up.
 
 <img width="940" height="443" alt="image" src="https://github.com/user-attachments/assets/98d12a9b-16c8-40ec-a5c6-548ea2cdc4b3" />
 
 
-#### e. Future works:
+#### f. Future works:
 * Further tuning of the biasing voltages can be controlled with appropriate sizing of transistors, and resistor value, to improve the performance of the OTA.
 * To ensure the minimum output voltage is small enough for “wide-swing” property, the W/L of M17 can be set to a larger value.
 * Sooch’s approach can be implemented to solve issues due to non-ideal behaviours associated with transistors with different aspect ratios.
