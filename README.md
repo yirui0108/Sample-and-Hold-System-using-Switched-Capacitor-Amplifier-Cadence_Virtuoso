@@ -164,6 +164,8 @@ The circuit can be self-started, the diagram below shows the voltage changes dur
 
 <img width="940" height="443" alt="image" src="https://github.com/user-attachments/assets/98d12a9b-16c8-40ec-a5c6-548ea2cdc4b3" />
 
+<img width="1093" height="590" alt="image" src="https://github.com/user-attachments/assets/06157a33-2ea1-4a22-82cf-2594543d7248" />
+
 
 #### f. Future works:
 * Further tuning of the biasing voltages can be controlled with appropriate sizing of transistors, and resistor value, to improve the performance of the OTA.
