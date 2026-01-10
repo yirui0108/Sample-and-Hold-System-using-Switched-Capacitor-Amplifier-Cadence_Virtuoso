@@ -161,6 +161,8 @@ The circuit can be self-started, the diagram below shows the voltage changes dur
 * OTA can be used since they can drive capacitive load in switched capacitor circuits.
 * The folded-cascode design has a reasonably good output swing, fast settling time, high gain and good stability due to one dominant output pole.
 * For input differential pair, NMOS can provide higher gain and higher speed, but PMOS has lower flicker noise which is more suitable in SC-application.
+* <img width="760" height="370" alt="image" src="https://github.com/user-attachments/assets/155ee485-6ed5-46cc-8e69-ca152844e77a" />
+
 
 The Operational Transconductance Amplifier within the top level schematic is shown in the diagram below.
 
