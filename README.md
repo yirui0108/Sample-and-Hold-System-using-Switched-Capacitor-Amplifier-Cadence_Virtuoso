@@ -122,7 +122,7 @@ $$TC = \frac{539.5411mV - 498.9678mV}{0.5V} \times \frac{10^6}{110 - (-10)} = 67
 #### a. Purpose:
 To provide the necessary biasing voltages to the main amplifier and the unity gain buffer.
 
-#### b. Brief explanation:
+#### b. Theory:
 
 <img width="522" height="661" alt="image" src="https://github.com/user-attachments/assets/3be9ca53-4a33-4561-9dc1-de8bae622c3b" />
 
@@ -134,7 +134,7 @@ and by drain current definition:
 
 <img width="507" height="102" alt="image" src="https://github.com/user-attachments/assets/183bfce4-bc17-4e81-aa98-35ad0092bfee" />
 
-Thus by assuming perfect current mirror working condition, every branch will get the same ID, thus the different biasing voltage can be obtained via adjustments of W/L of different transistors.
+Thus by assuming perfect current mirror working condition, every branch will get the same ID, thus the different biasing voltage can be obtained via adjustments of W/L of different transistors, resulting in different gate voltages.
 
 
 
