@@ -106,6 +106,7 @@ $$TC = \frac{539.5411mV - 498.9678mV}{0.5V} \times \frac{10^6}{110 - (-10)} = 67
 
 #### e. Future works:
 * The start-up transistor M4 did not turn off during normal operation as intended, as it was a trade-off made to prevent oscillations in the output reference voltage during startup, since the circuit had trouble in starting up entirely when M4 is switched off briefly after startup. This will affect the normal operation of the op amp.
+* One suggested approach is to increase the W/L for the output branch, that way, a quiescent DC voltage of 0.5 V can be achieved without increasing the resistor in the output branch by too much, which in turn can make both the PTAT and CTAT voltage's coefficient smaller.
 * Further refinements can be done by adjusting the values of the resistor using the below equation highlighted in the article, to improve the temperature coefficient performance.
 
 <img width="617" height="194" alt="image" src="https://github.com/user-attachments/assets/ccc34ea1-1ac3-49a6-a31a-088537c695a4" />
