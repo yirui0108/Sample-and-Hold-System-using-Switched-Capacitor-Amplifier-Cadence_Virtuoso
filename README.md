@@ -128,7 +128,7 @@ To provide the necessary biasing voltages to the main amplifier and the unity ga
 
 For the circuit above, it can be proven that:
 
-<img width="522" height="661" alt="image" src="https://github.com/user-attachments/assets/c8b162e0-a2e4-4159-bcd6-bb6bf8b4bebf" />
+<img width="455" height="139" alt="image" src="https://github.com/user-attachments/assets/3a03c1eb-3a86-42c0-baf4-30fb986e1f18" />
 
 and by drain current definition:
 
