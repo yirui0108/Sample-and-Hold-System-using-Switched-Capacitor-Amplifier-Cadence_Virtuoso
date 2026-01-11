@@ -261,6 +261,11 @@ As opposed to the conventional NAND-NOR D flip-flop, transmission gate-based fli
 
 <img width="940" height="716" alt="image" src="https://github.com/user-attachments/assets/b51902a7-f28c-478a-99fa-a1a0a50e760a" />
 
+A typical NAND based master slave D flip flop is shown below:
+
+<img width="718" height="247" alt="image" src="https://github.com/user-attachments/assets/fa89195c-5f17-47cf-ad74-3a91c7c5afa1" />
+
+
 
 ---
 
