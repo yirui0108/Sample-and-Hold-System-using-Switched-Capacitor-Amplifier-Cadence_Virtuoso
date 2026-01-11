@@ -265,6 +265,8 @@ A typical NAND based master slave D flip flop is shown below:
 
 <img width="718" height="247" alt="image" src="https://github.com/user-attachments/assets/fa89195c-5f17-47cf-ad74-3a91c7c5afa1" />
 
+The transmission gate based design has an advantage over the NAND-based design in terms of transistor count, in this case, using 28 transistors (with reset function) instead of 34 of the NAND design (without reset function).
+
 
 
 ---
