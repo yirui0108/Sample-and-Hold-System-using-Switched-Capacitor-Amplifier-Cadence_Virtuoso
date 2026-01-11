@@ -218,6 +218,8 @@ To generate a clock signal to be fed into the frequency divider.
 The oscillating frequency is dependent on the gate delay. If the gate delay of each inverter is $t_D$, then the oscillation frequency is simply:
 $$f = \frac{1}{6t_D}$$
 
+The capacitor is added to the output of each inverters to smooth out the waveform, instead of a zig-zag waveform without the capacitors.
+
 The inverter-based ring oscillator within the top level schematic is shown in the diagram below.
 
 <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/34ff0289-c0de-491b-bb48-d3ea3277588f" />
